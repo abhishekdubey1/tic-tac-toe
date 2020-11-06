@@ -1,0 +1,48 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#message {
+    font-weight: bold;
+    font-size: large;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    background-color: rgba(216, 186, 123, 0.87);
+    font-family: 'Permanent Marker', cursive;
+    border: 5px solid black;
+    width: 150px;
+    height: 150px;
+    font-size: 100px;
+}
+
+td:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+  }
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+div{
+    text-align: center;
+}
